@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A45D6771878A5CB003C8086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A45D6761878A5CB003C8086 /* Foundation.framework */; };
+		7A45D6791878A5CB003C8086 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A45D6781878A5CB003C8086 /* CoreGraphics.framework */; };
+		7A45D67B1878A5CB003C8086 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A45D67A1878A5CB003C8086 /* UIKit.framework */; };
+		7A45D6811878A5CB003C8086 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A45D67F1878A5CB003C8086 /* InfoPlist.strings */; };
+		7A45D6831878A5CB003C8086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45D6821878A5CB003C8086 /* main.m */; };
+		7A45D6871878A5CB003C8086 /* RScoreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45D6861878A5CB003C8086 /* RScoreAppDelegate.m */; };
+		7A45D68A1878A5CB003C8086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A45D6881878A5CB003C8086 /* Main.storyboard */; };
+		7A45D68D1878A5CB003C8086 /* RScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45D68C1878A5CB003C8086 /* RScoreViewController.m */; };
+		7A45D68F1878A5CB003C8086 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A45D68E1878A5CB003C8086 /* Images.xcassets */; };
+		7A45D6961878A5CB003C8086 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A45D6951878A5CB003C8086 /* XCTest.framework */; };
+		7A45D6971878A5CB003C8086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A45D6761878A5CB003C8086 /* Foundation.framework */; };
+		7A45D6981878A5CB003C8086 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A45D67A1878A5CB003C8086 /* UIKit.framework */; };
+		7A45D6A01878A5CB003C8086 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A45D69E1878A5CB003C8086 /* InfoPlist.strings */; };
+		7A45D6A21878A5CB003C8086 /* r_score_calculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45D6A11878A5CB003C8086 /* r_score_calculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A45D6991878A5CB003C8086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A45D66B1878A5CB003C8086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A45D6721878A5CB003C8086;
+			remoteInfo = "r-score-calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A45D6731878A5CB003C8086 /* R Score.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R Score.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A45D6761878A5CB003C8086 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A45D6781878A5CB003C8086 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A45D67A1878A5CB003C8086 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7A45D67E1878A5CB003C8086 /* R Score-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "R Score-Info.plist"; sourceTree = "<group>"; };
+		7A45D6801878A5CB003C8086 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A45D6821878A5CB003C8086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A45D6841878A5CB003C8086 /* R Score-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "R Score-Prefix.pch"; sourceTree = "<group>"; };
+		7A45D6851878A5CB003C8086 /* RScoreAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RScoreAppDelegate.h; sourceTree = "<group>"; };
+		7A45D6861878A5CB003C8086 /* RScoreAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RScoreAppDelegate.m; sourceTree = "<group>"; };
+		7A45D6891878A5CB003C8086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A45D68B1878A5CB003C8086 /* RScoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RScoreViewController.h; sourceTree = "<group>"; };
+		7A45D68C1878A5CB003C8086 /* RScoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RScoreViewController.m; sourceTree = "<group>"; };
+		7A45D68E1878A5CB003C8086 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7A45D6941878A5CB003C8086 /* R ScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "R ScoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A45D6951878A5CB003C8086 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7A45D69D1878A5CB003C8086 /* R ScoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "R ScoreTests-Info.plist"; sourceTree = "<group>"; };
+		7A45D69F1878A5CB003C8086 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A45D6A11878A5CB003C8086 /* r_score_calculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = r_score_calculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A45D6701878A5CB003C8086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A45D6791878A5CB003C8086 /* CoreGraphics.framework in Frameworks */,
+				7A45D67B1878A5CB003C8086 /* UIKit.framework in Frameworks */,
+				7A45D6771878A5CB003C8086 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A45D6911878A5CB003C8086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A45D6961878A5CB003C8086 /* XCTest.framework in Frameworks */,
+				7A45D6981878A5CB003C8086 /* UIKit.framework in Frameworks */,
+				7A45D6971878A5CB003C8086 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A45D66A1878A5CB003C8086 = {
+			isa = PBXGroup;
+			children = (
+				7A45D67C1878A5CB003C8086 /* r-score-calculator */,
+				7A45D69B1878A5CB003C8086 /* r-score-calculatorTests */,
+				7A45D6751878A5CB003C8086 /* Frameworks */,
+				7A45D6741878A5CB003C8086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A45D6741878A5CB003C8086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A45D6731878A5CB003C8086 /* R Score.app */,
+				7A45D6941878A5CB003C8086 /* R ScoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A45D6751878A5CB003C8086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A45D6761878A5CB003C8086 /* Foundation.framework */,
+				7A45D6781878A5CB003C8086 /* CoreGraphics.framework */,
+				7A45D67A1878A5CB003C8086 /* UIKit.framework */,
+				7A45D6951878A5CB003C8086 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A45D67C1878A5CB003C8086 /* r-score-calculator */ = {
+			isa = PBXGroup;
+			children = (
+				7A45D6881878A5CB003C8086 /* Main.storyboard */,
+				7A45D68B1878A5CB003C8086 /* RScoreViewController.h */,
+				7A45D68C1878A5CB003C8086 /* RScoreViewController.m */,
+				7A45D68E1878A5CB003C8086 /* Images.xcassets */,
+				7A45D67D1878A5CB003C8086 /* Supporting Files */,
+			);
+			path = "r-score-calculator";
+			sourceTree = "<group>";
+		};
+		7A45D67D1878A5CB003C8086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A45D6851878A5CB003C8086 /* RScoreAppDelegate.h */,
+				7A45D6861878A5CB003C8086 /* RScoreAppDelegate.m */,
+				7A45D67E1878A5CB003C8086 /* R Score-Info.plist */,
+				7A45D67F1878A5CB003C8086 /* InfoPlist.strings */,
+				7A45D6821878A5CB003C8086 /* main.m */,
+				7A45D6841878A5CB003C8086 /* R Score-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A45D69B1878A5CB003C8086 /* r-score-calculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A45D6A11878A5CB003C8086 /* r_score_calculatorTests.m */,
+				7A45D69C1878A5CB003C8086 /* Supporting Files */,
+			);
+			path = "r-score-calculatorTests";
+			sourceTree = "<group>";
+		};
+		7A45D69C1878A5CB003C8086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A45D69D1878A5CB003C8086 /* R ScoreTests-Info.plist */,
+				7A45D69E1878A5CB003C8086 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A45D6721878A5CB003C8086 /* R Score */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A45D6A51878A5CB003C8086 /* Build configuration list for PBXNativeTarget "R Score" */;
+			buildPhases = (
+				7A45D66F1878A5CB003C8086 /* Sources */,
+				7A45D6701878A5CB003C8086 /* Frameworks */,
+				7A45D6711878A5CB003C8086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "R Score";
+			productName = "r-score-calculator";
+			productReference = 7A45D6731878A5CB003C8086 /* R Score.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A45D6931878A5CB003C8086 /* R ScoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A45D6A81878A5CB003C8086 /* Build configuration list for PBXNativeTarget "R ScoreTests" */;
+			buildPhases = (
+				7A45D6901878A5CB003C8086 /* Sources */,
+				7A45D6911878A5CB003C8086 /* Frameworks */,
+				7A45D6921878A5CB003C8086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A45D69A1878A5CB003C8086 /* PBXTargetDependency */,
+			);
+			name = "R ScoreTests";
+			productName = "r-score-calculatorTests";
+			productReference = 7A45D6941878A5CB003C8086 /* R ScoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A45D66B1878A5CB003C8086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RScore;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Michael Ho";
+				TargetAttributes = {
+					7A45D6721878A5CB003C8086 = {
+						DevelopmentTeam = MGMHCQU33M;
+					};
+					7A45D6931878A5CB003C8086 = {
+						TestTargetID = 7A45D6721878A5CB003C8086;
+					};
+				};
+			};
+			buildConfigurationList = 7A45D66E1878A5CB003C8086 /* Build configuration list for PBXProject "R Score" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A45D66A1878A5CB003C8086;
+			productRefGroup = 7A45D6741878A5CB003C8086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A45D6721878A5CB003C8086 /* R Score */,
+				7A45D6931878A5CB003C8086 /* R ScoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A45D6711878A5CB003C8086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A45D68F1878A5CB003C8086 /* Images.xcassets in Resources */,
+				7A45D6811878A5CB003C8086 /* InfoPlist.strings in Resources */,
+				7A45D68A1878A5CB003C8086 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A45D6921878A5CB003C8086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A45D6A01878A5CB003C8086 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A45D66F1878A5CB003C8086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A45D6871878A5CB003C8086 /* RScoreAppDelegate.m in Sources */,
+				7A45D68D1878A5CB003C8086 /* RScoreViewController.m in Sources */,
+				7A45D6831878A5CB003C8086 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A45D6901878A5CB003C8086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A45D6A21878A5CB003C8086 /* r_score_calculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A45D69A1878A5CB003C8086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A45D6721878A5CB003C8086 /* R Score */;
+			targetProxy = 7A45D6991878A5CB003C8086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A45D67F1878A5CB003C8086 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A45D6801878A5CB003C8086 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7A45D6881878A5CB003C8086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A45D6891878A5CB003C8086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A45D69E1878A5CB003C8086 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A45D69F1878A5CB003C8086 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A45D6A31878A5CB003C8086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A45D6A41878A5CB003C8086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A45D6A61878A5CB003C8086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "r-score-calculator/R Score-Prefix.pch";
+				INFOPLIST_FILE = "r-score-calculator/R Score-Info.plist";
+				PRODUCT_NAME = "R Score";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7A45D6A71878A5CB003C8086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "r-score-calculator/R Score-Prefix.pch";
+				INFOPLIST_FILE = "r-score-calculator/R Score-Info.plist";
+				PRODUCT_NAME = "R Score";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7A45D6A91878A5CB003C8086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/r-score-calculator.app/r-score-calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "r-score-calculator/r-score-calculator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "r-score-calculatorTests/R ScoreTests-Info.plist";
+				PRODUCT_NAME = "R ScoreTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7A45D6AA1878A5CB003C8086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/r-score-calculator.app/r-score-calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "r-score-calculator/r-score-calculator-Prefix.pch";
+				INFOPLIST_FILE = "r-score-calculatorTests/R ScoreTests-Info.plist";
+				PRODUCT_NAME = "R ScoreTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A45D66E1878A5CB003C8086 /* Build configuration list for PBXProject "R Score" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A45D6A31878A5CB003C8086 /* Debug */,
+				7A45D6A41878A5CB003C8086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A45D6A51878A5CB003C8086 /* Build configuration list for PBXNativeTarget "R Score" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A45D6A61878A5CB003C8086 /* Debug */,
+				7A45D6A71878A5CB003C8086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A45D6A81878A5CB003C8086 /* Build configuration list for PBXNativeTarget "R ScoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A45D6A91878A5CB003C8086 /* Debug */,
+				7A45D6AA1878A5CB003C8086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A45D66B1878A5CB003C8086 /* Project object */;
+}
