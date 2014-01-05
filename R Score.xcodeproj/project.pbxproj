@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A45D4231879FAE60041E2C7 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45D4221879FAE60041E2C7 /* AboutViewController.m */; };
 		7A45D6771878A5CB003C8086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A45D6761878A5CB003C8086 /* Foundation.framework */; };
 		7A45D6791878A5CB003C8086 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A45D6781878A5CB003C8086 /* CoreGraphics.framework */; };
 		7A45D67B1878A5CB003C8086 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A45D67A1878A5CB003C8086 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A45D4211879FAE60041E2C7 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		7A45D4221879FAE60041E2C7 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		7A45D6731878A5CB003C8086 /* R Score.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R Score.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A45D6761878A5CB003C8086 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7A45D6781878A5CB003C8086 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +118,8 @@
 				7A45D6881878A5CB003C8086 /* Main.storyboard */,
 				7A45D68B1878A5CB003C8086 /* RScoreViewController.h */,
 				7A45D68C1878A5CB003C8086 /* RScoreViewController.m */,
+				7A45D4211879FAE60041E2C7 /* AboutViewController.h */,
+				7A45D4221879FAE60041E2C7 /* AboutViewController.m */,
 				7A45D68E1878A5CB003C8086 /* Images.xcassets */,
 				7A45D67D1878A5CB003C8086 /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 			files = (
 				7A45D6871878A5CB003C8086 /* RScoreAppDelegate.m in Sources */,
 				7A45D68D1878A5CB003C8086 /* RScoreViewController.m in Sources */,
+				7A45D4231879FAE60041E2C7 /* AboutViewController.m in Sources */,
 				7A45D6831878A5CB003C8086 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

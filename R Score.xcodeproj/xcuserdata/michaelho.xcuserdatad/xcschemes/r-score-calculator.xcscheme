@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7A45D6721878A5CB003C8086"
-               BuildableName = "r-score-calculator.app"
+               BuildableName = "R Score.app"
                BlueprintName = "R Score"
                ReferencedContainer = "container:R Score.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7A45D6931878A5CB003C8086"
-               BuildableName = "r-score-calculatorTests.xctest"
+               BuildableName = "R ScoreTests.xctest"
                BlueprintName = "R ScoreTests"
                ReferencedContainer = "container:R Score.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7A45D6721878A5CB003C8086"
-            BuildableName = "r-score-calculator.app"
+            BuildableName = "R Score.app"
             BlueprintName = "R Score"
             ReferencedContainer = "container:R Score.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7A45D6721878A5CB003C8086"
-            BuildableName = "r-score-calculator.app"
+            BuildableName = "R Score.app"
             BlueprintName = "R Score"
             ReferencedContainer = "container:R Score.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7A45D6721878A5CB003C8086"
-            BuildableName = "r-score-calculator.app"
+            BuildableName = "R Score.app"
             BlueprintName = "R Score"
             ReferencedContainer = "container:R Score.xcodeproj">
          </BuildableReference>
