@@ -9,6 +9,7 @@
 #import "AboutViewController.h"
 
 @interface AboutViewController ()
+@property (weak, nonatomic) IBOutlet UITextView *aboutText;
 
 @end
 

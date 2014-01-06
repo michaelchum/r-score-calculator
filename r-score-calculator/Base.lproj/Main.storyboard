@@ -253,6 +253,9 @@ Cg
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ybq-Jd-EpZ"/>
+                    <connections>
+                        <outlet property="aboutText" destination="cjX-3y-br5" id="Icw-r8-t8t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ldo-oT-5IT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
