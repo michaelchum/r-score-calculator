@@ -7,5 +7,3 @@ It takes into account the student's average in a class, the average of all other
 
 ![rscore1](http://i.imgur.com/leFX9CC.png)
 ![rscore2](http://i.imgur.com/uGRprBp.png)
-
-Soon to appear on the app store...
